@@ -1,0 +1,35 @@
+.flashCard {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-height: 300px;
+    max-width: 100px;
+    border: 1px solid white;
+    height: fit-content;
+    width: fit-content;
+    margin: 2rem;
+    position: relative;
+    padding: 30px;
+    transition: 0.5s;
+}
+
+    .flashCard__content {
+    display: absolute;
+    visibility: hidden;
+}
+
+
+.flashCard:hover .flashCard__content {
+    visibility: visible;
+}
+
+.flashCard:hover {
+    
+        color: #FFFFFF;
+        box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+        color: #FFFFFF;
+        background: #232323;
+        
+}
